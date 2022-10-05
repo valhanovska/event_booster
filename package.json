@@ -1,11 +1,11 @@
 {
-  "name": "js-panda",
+  "name": "event_booster",
   "version": "3.0.0",
   "description": "",
-  "homepage": "https://github.com/sergienko314/JS-PANDA",
+  "homepage": "https://valhanovska.github.io/event_booster/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /JS-PANDA/"
+    "build": "parcel build src/*.html --public-url /event_booster/"
   },
   "repository": {
     "type": "git",

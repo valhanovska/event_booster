@@ -1,3 +1,33 @@
+// .header-section {
+//     background-repeat: no-repeat;
+//     height: 364px;
+
+//     @media screen and (min-width: 768px) {
+//         background-image: url(../images/logo-m.png);
+//     }
+
+//     @media screen and (min-width: 1200px) {
+//         background-image: url(../images/logo-l.png);
+//     }
+// }
+
+// header {
+
+//     z-index: -10;
+//     background-repeat: no-repeat;
+//     background-position: left top;
+
+//     background-image: url(../images/logo-s.png);
+
+//     @media screen and (min-width: 768px) {
+//         background-image: url(../images/logo-m.png);
+//     }
+
+//     @media screen and (min-width: 1200px) {
+//         background-image: url(../images/logo-l.png);
+//     }
+// }
+
 .logo {
   margin: 20px 0 0 20px;
   width: 70px;
@@ -41,6 +71,33 @@
   }
 }
 
+// body {
+//     object-fit: cover;
+//     object-position: right top;
+//     background-position: 50% 50%;
+
+//     background-repeat: no-repeat;
+//     width: 100%;
+//     height: 100%;
+
+//     padding-bottom: 56px;
+//     margin-right: 0;
+//     margin-left: auto;
+//     margin-right: auto;
+
+//     background-image: url(../images/bg-logo-m.png);
+
+//     @media screen and (min-width: 768px) {
+//         background-image: url(../images/bg-logo-l.png);
+
+//     }
+
+//     @media screen and (min-width: 1200px) {
+//         background-image: url(../images/logo-l.png);
+
+//     }
+// }
+
 .logo-icon {
   width: 100px;
   height: 100px;
@@ -67,7 +124,7 @@ svg text {
   animation: stroke 3s infinite alternate;
   stroke-width: 2;
   stroke: var(--accent-color);
-  font-size: 65px;
+  font-size: 60px;
   padding-top: 0;
 
   @media screen and (min-width: 768px) {
@@ -299,7 +356,6 @@ select {
 }
 
 .custom-select-option {
-  visibility: hidden;
   padding: 0.5px 30px;
   font-weight: 400;
   font-size: 16px;

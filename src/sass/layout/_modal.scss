@@ -219,6 +219,8 @@ a {
 }
 
 .modal__info {
+  cursor: default;
+
   margin-bottom: 5px;
   font-style: normal;
   font-weight: 600;
@@ -323,6 +325,7 @@ a {
 .modal__btn--more {
   cursor: pointer;
   display: block;
+  cursor: pointer;
   max-width: 230px;
   height: 40px;
   padding: 10px 0;
